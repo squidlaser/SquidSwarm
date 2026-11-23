@@ -25,11 +25,12 @@ Sei un calamaro arancione: sopravvivi a ondate di pesci sempre più numerose, po
 1. Nel repository vai su **Settings → Pages**.
 2. In **Source** scegli **Deploy from a branch**, branch `main`, cartella `/ (root)`, poi **Save**.
 3. Dopo un minuto il gioco è online su `https://<tuo-utente>.github.io/<nome-repo>/`.
-4. Dal telefono apri il link e usa **Aggiungi a schermata Home**: avrà l'icona del gioco.
+4. Dal telefono apri il link e scegli **Installa app** (Android) o **Condividi → Aggiungi a Home** (iPhone): si installa come una vera app, a schermo intero e giocabile anche offline.
 
 ## File
 | File | Cosa contiene |
 |---|---|
 | `index.html` | Tutto il gioco in un unico file (grafica, musica e logica) |
-| `icon.png` | Icona dell'app (1024×1024) |
+| `icon.png`, `icon-192.png`, `icon-512.png` | Icona dell'app |
+| `manifest.webmanifest`, `sw.js` | Rendono il gioco installabile come app (PWA) e giocabile offline |
 | `logo.png` | Logo del gioco |
